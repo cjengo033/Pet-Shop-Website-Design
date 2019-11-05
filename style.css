@@ -1,0 +1,191 @@
+
+*
+{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#background iframe{
+	margin-left: 8%;
+}
+
+#games h1
+{
+	text-align: center;
+	margin: 5% 0 10% 0;
+}
+#games figure 
+{
+	margin-top: 5%;
+	margin-left: 100px;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;
+	grid-gap: 50px;
+
+
+}
+
+#games figure img 
+{
+
+	border: 4px solid black;
+
+}
+
+#background h1
+{
+	
+	color: white;
+	font-size: 40px;
+
+	padding-bottom: 5%;
+
+	text-align: center;
+
+}
+#background img
+{
+	
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
+
+}
+
+iframe
+{
+
+	
+	height: 350px;
+	width: 500px;
+	margin-left: 0px;
+	padding: 3%;
+}
+#wow p 
+{
+	margin-left: 40%;
+
+	color: white;
+}
+#wow
+{
+
+	background-color: black;
+	height: 120px;
+
+}
+
+.nav-1 ul li:hover
+{
+	color: red;
+}
+
+.nav-1 .color
+{
+	border: 1px solid black;
+	margin-left: 50px;
+	padding-right: 50px;
+
+}
+.nav-1 .color:hover
+{
+	background-color: black;
+	color: white;
+
+}
+
+
+#ban figure img
+{
+	float: left;
+	width: 20%;
+	border: 1px solid black;
+	position: relative;
+	width: 100%;
+
+	
+}
+
+
+
+#games h3
+{
+	color: lightblue;
+	text-align: center;
+	
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .girl img
+ {
+ 	width: 100%;
+ }
+ 
+
+#games figure 
+{
+	margin-left: 100px;
+	display: grid;
+	grid-template-columns: 22% 22% 22% 22%;
+	grid-gap: 50px;
+
+}
+#background
+{
+	background-color: #ffc107;
+	border: 1px solid red;
+	
+}
+#wow p 
+{
+	margin-left: 40%;
+	padding-top: 50px;
+	color: white;
+}
+#wow
+{
+
+	background-color: black;
+	height: 120px;
+
+}
+@media screen and (max-width: 768px) {
+
+iframe
+{
+	width: 80%;
+
+}
+#games 
+{
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+#games figure
+{
+	display: grid;
+	grid-template-columns: 100%;
+	margin-left: -10px;
+	margin-left: 70px;
+
+}
+#games figure img
+{
+	margin-bottom: 10px;
+	border-radius: 5%;
+}
+
+#wow p
+{
+ margin-left: 130px;
+}
+
+
+
+
+

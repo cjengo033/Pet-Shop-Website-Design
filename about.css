@@ -1,0 +1,167 @@
+ *
+{
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+.background img
+{
+	height: 100%;
+	width: 100%;
+}
+#main, h1, p
+{
+	text-align: center;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-top: 5%;
+	margin-left: 10%;
+
+
+
+}
+#main h1
+{
+ text-align: center;
+padding: 5px;
+
+}
+.video
+{
+	
+margin-left: -8%;
+
+
+	
+}
+.video iframe
+{
+	height: 350px;
+	width: 30%;
+	margin-top: 2%;
+	margin-left: 15%;
+	display: inline-block;
+
+}
+
+#core
+{
+	display: grid;
+	margin-top: 5%;
+  grid-template-columns: 40% 50%;
+  grid-gap: 20%;
+	border: none;
+}
+#core img
+{
+	margin-left: 15%;
+}
+#core p
+{
+	margin-top: 25%;
+
+
+}
+
+.left 
+{
+		
+
+}
+
+.left img
+{
+	 z-index: -1;
+
+	margin-left: 5%;
+	margin-top: 2%;
+
+	 
+
+}
+
+.girl img
+{
+margin-top: 10%;
+}
+.girl img
+{
+	width: 100%;
+	height: 100%;
+}
+
+#wow p 
+{
+	margin-left: 35%;
+	padding-top: 50px;
+	color: white;
+}
+#wow
+{
+	background-color: black;
+	height: 120px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+ #wow p
+ {
+   
+    margin-left: 130px;
+
+ }
+ #main div p
+ {
+ 	display: grid;
+ 	grid-template-columns: 100%;
+
+
+ }
+ #main{
+ 	display: block;
+
+ }
+ #main h1
+ {
+ 	margin-right: -300px;
+ }
+ #main p
+ {
+ 	margin-left: -40px;
+ 	margin-right: 10px;
+
+ }
+.video iframe 
+{
+
+	margin-left: 3.5em;
+	width: 450px;
+
+
+}
+#core img 
+ {
+
+  padding-bottom: 50px;
+margin-left: -140px;
+width: 350px;
+  
+ }
+ #core
+ {
+ 	margin-left: 200px;
+ }
+ #core p
+ {
+ 	text-align: center;
+ 	width: 900px;
+  margin-top: 700px;
+  margin-left: -350px;
+
+ }
+.left
+{
+	margin-left: 1em;
+}
